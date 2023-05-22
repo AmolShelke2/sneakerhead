@@ -1,7 +1,9 @@
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <div className="App">
-      <h1>Sneaker Head</h1>
+    <div className="w-full">
+      <Navbar />
     </div>
   );
 }
