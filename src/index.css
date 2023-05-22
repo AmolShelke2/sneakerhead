@@ -8,4 +8,12 @@
   body {
     @apply font-[Poppins] transition-all;
   }
+
+  ul {
+    @apply transition-all;
+  }
+
+  li {
+    @apply transition-all;
+  }
 }
