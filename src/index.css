@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply font-[Poppins] transition-all;
+    @apply font-[Poppins] transition-all overflow-x-hidden;
   }
 
   ul {
