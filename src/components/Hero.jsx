@@ -4,7 +4,7 @@ import hero from "../assets/images/hero1.png";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col-reverse justify-center items-center px-4 h-[80vh] md:flex-row md:justify-between md:px-32">
+    <div className="flex flex-col-reverse justify-center items-center px-4 h-[80vh] md:h-[100vh] md:flex-row md:justify-between md:px-32">
       <div>
         <h1 className="text-xl font-bold mb-4 md:text-4xl">
           Join the sneakerHead community
