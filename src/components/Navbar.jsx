@@ -29,7 +29,7 @@ const Navbar = () => {
               <a href="#">Home</a>
             </li>
             <li className="mb-6 md:mb-0 md:mr-4">
-              <a href="#">Collection</a>
+              <a href="#collections">Collection</a>
             </li>
             <li className="mb-6 md:mb-0 md:mr-4">
               <a href="#">About us</a>
