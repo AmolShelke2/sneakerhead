@@ -4,12 +4,12 @@ import hero from "../assets/images/hero1.png";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col-reverse justify-center items-center px-4 h-[80vh] md:h-[100vh] md:flex-row md:justify-between md:px-32">
+    <div className="flex flex-col-reverse justify-center items-center px-4 h-[80vh] md:h-[100vh] md:flex-row md:justify-between xl:px-32">
       <div>
         <h1 className="text-xl font-bold mb-4 md:text-4xl">
           Join the sneakerHead community
         </h1>
-        <p className=" font-light text-sm mb-8 md:w-[75%] md:text-lg">
+        <p className=" font-light text-sm mb-8 lg:w-[75%] md:text-lg">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
           neque sapiente nostrum dolores suscipit ex?
         </p>
