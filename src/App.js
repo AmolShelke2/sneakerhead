@@ -1,3 +1,4 @@
+import Aboout from "./components/Aboout";
 import Collections from "./components/Collections";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Hero />
       <Collections />
+      <Aboout />
     </div>
   );
 }
