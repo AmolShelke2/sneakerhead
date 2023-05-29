@@ -27,10 +27,30 @@ const Aboout = () => {
         </div>
 
         <div className="grid grid-cols-2 gap-5">
-          <img src={store1} alt="store" />
-          <img src={store2} alt="store" />
-          <img src={store3} alt="store" />
-          <img src={store4} alt="store" />
+          <div className="relative">
+            <img src={store1} alt="store" />
+            <p className="absolute bottom-4 shadow-sm left-4 text-white text-sm md:text-xl font-bold">
+              Delhi
+            </p>
+          </div>
+          <div className="relative">
+            <img src={store2} alt="store" />
+            <p className="absolute bottom-4 shadow-sm left-4 text-white text-sm md:text-xl font-bold">
+              Mumbai
+            </p>
+          </div>
+          <div className="relative">
+            <img src={store3} alt="store" />
+            <p className="absolute bottom-4 shadow-sm left-4 text-white text-sm md:text-xl font-bold">
+              Hyderabad
+            </p>
+          </div>
+          <div className=" relative">
+            <img src={store4} alt="store" />
+            <p className="absolute bottom-4 shadow-sm left-4 text-white text-sm md:text-xl font-bold">
+              Banglore
+            </p>
+          </div>
         </div>
       </div>
     </div>
