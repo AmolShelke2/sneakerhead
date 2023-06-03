@@ -99,7 +99,7 @@ const Collections = () => {
               <img
                 src={collection.shoeImage}
                 alt="collection"
-                className=" object-contain"
+                className="object-contain hover:scale-150"
               />
             </div>
             <div className="mb-4">

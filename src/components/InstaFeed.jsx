@@ -46,11 +46,11 @@ const InstaFeed = () => {
       <h2 className="text-2xl font-bold mb-2">Our Instagram</h2>
       <div className="grid grid-cols-2 md:grid-cols-3">
         {InstaFeedData.map((instafeed) => (
-          <div className="m-1 shadow-sm shadow-black">
+          <div className="m-1 shadow-sm shadow-black transition-all">
             <img
               src={instafeed.image}
               alt="instafeed"
-              className="object-cover h-full w-full"
+              className="object-cover h-full w-full hover:scale-150"
             />
           </div>
         ))}
