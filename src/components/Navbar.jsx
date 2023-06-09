@@ -18,13 +18,13 @@ const Navbar = () => {
           className="text-white block absolute top-6 right-5 text-2xl cursor-pointer md:hidden"
           onClick={openNavbarClickHandler}
         />
-        <div>
+        <div className="transition-all">
           <ul
             className={`${
               activeNavbar
                 ? "hidden md:flex md:justify-between items-center text-white"
                 : "flex md:flex flex-col h-screen md:h-auto justify-center items-center md:flex-row md:justify-between text-white px-10"
-            }`}>
+            } transition-all`}>
             <li className="mb-6 md:mb-0 md:mr-4">
               <a href="#">Home</a>
             </li>
