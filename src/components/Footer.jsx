@@ -6,22 +6,33 @@ const Footer = () => {
       <div>
         <ul className="flex justify-between">
           <li className="mr-2">
-            <a href="#">contact</a>
+            <a href="#" className="md:text-xl">
+              contact
+            </a>
           </li>
           <li className="mr-2">
-            <a href="#">more info</a>
+            <a href="#" className="md:text-xl">
+              more info
+            </a>
           </li>
           <li className="mr-2">
-            <a href="#">visit us</a>
+            <a href="#" className="md:text-xl">
+              visit us
+            </a>
           </li>
           <li>
-            <a href="#">shop</a>
+            <a href="#" className="md:text-xl">
+              shop
+            </a>
           </li>
         </ul>
       </div>
       <div>
-        <p className="mt-4 md:m-0 text-center">
-          All copyrights reserved by <span>Amol Shelke</span>
+        <p className="mt-4 md:m-0 md:text-lg text-center">
+          All copyrights reserved by{" "}
+          <a href="https://github.com/AmolShelke2" className="text-cyan-400">
+            Amol Shelke💙
+          </a>
         </p>
       </div>
     </div>

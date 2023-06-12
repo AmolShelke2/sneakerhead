@@ -50,7 +50,7 @@ const InstaFeed = () => {
             <img
               src={instafeed.image}
               alt="instafeed"
-              className="object-cover h-full w-full hover:scale-150"
+              className="object-cover h-full w-full"
             />
           </div>
         ))}

@@ -4,7 +4,7 @@ import contactImg from "../assets/images/hero1.png";
 
 const Contact = () => {
   return (
-    <div className="max-w-[1340px] lg:mx-auto flex flex-col lg:flex-row sm:h-[100vh] lg:h-[500px] items-center gap-8 m-8">
+    <div className="max-w-[1340px] lg:mx-auto flex flex-col lg:flex-row lg:h-[500px] items-center gap-8 m-8">
       <form className="bg-white shadow-md rounded px-8 h-[350px] pt-6 pb-8 mb-4 w-full sm:w-[60%]">
         <div className="mb-4">
           <label
