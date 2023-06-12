@@ -20,7 +20,7 @@ const Footer = () => {
         </ul>
       </div>
       <div>
-        <p className="mt-2 text-center">
+        <p className="mt-4 md:m-0 text-center">
           All copyrights reserved by <span>Amol Shelke</span>
         </p>
       </div>
