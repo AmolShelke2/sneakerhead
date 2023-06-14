@@ -16,6 +16,7 @@ Fully Responsive Sneaker website created with ReactJS and TailwindCSS.
 ## Preview
 
 ### Live Preview
+
 [sneakerHead website](https://sneakerhead-tau.vercel.app/)
 
 ### Screenshot
