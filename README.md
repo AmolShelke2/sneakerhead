@@ -1,6 +1,7 @@
 # SneakerHeads
 
-Fully Responsive Sneaker website created with ReactJS and TailwindCSS.
+Fully Responsive Sneaker website created with ReactJS and TailwindCSS. 
+Inspired from [Superkicks officials](https://www.superkicks.in/)
 
 <hr>
 
